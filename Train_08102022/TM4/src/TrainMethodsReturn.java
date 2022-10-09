@@ -8,14 +8,22 @@ public class TrainMethodsReturn {
         }
     }
 
-    public void returnNewLong(int y) {
-        int r = y;
-        System.out.println("метод returnNewLong вернул" + " " + (r - 4));
+    public void returnNewLong(long y) {
+        long r = 12;
+        if (r > 300) {
+            System.out.println("метод returnNewLong вернул" + " " + (r - 300));
+        } else {
+            System.out.println("метод returnNewLong вернул" + " " + (r + 20));
+        }
     }
 
     public void returnNewChar() {
-        char r = 'e';
-        System.out.println("метод returnNewChar вернул" + " " + r + r);
+        char r = 'w';
+        if (r == 'w') {
+            System.out.println("метод returnNewLong вернул go");
+        } else {
+            System.out.println("метод returnNewLong вернул go-o");
+        }
     }
 
     public void returnNewFloat() {
